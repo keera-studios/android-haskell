@@ -4,7 +4,7 @@
 name:                android
 version:             0.0.1
 synopsis:            Android methods exposed to Haskell
--- description:         
+description:         Haskell bindings to the Android ecosystem
 homepage:            https://github.com/keera-studios/android-haskell
 license:             GPL-3
 license-file:        LICENSE
