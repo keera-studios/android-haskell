@@ -34,16 +34,16 @@ androidLogPrint prio tag msg = do
 
 data AndroidLogPriority =
     AndroidLogPrioAssert
-  | AndroidLogPrioDebug
   | AndroidLogPrioError
-  | AndroidLogPrioInfo
-  | AndroidLogPrioVerbose
   | AndroidLogPrioWarn
+  | AndroidLogPrioInfo
+  | AndroidLogPrioDebug
+  | AndroidLogPrioVerbose
 
 prioToCInt :: AndroidLogPriority -> CInt
 prioToCInt AndroidLogPrioAssert  = 7
-prioToCInt AndroidLogPrioDebug   = 3
 prioToCInt AndroidLogPrioError   = 6
-prioToCInt AndroidLogPrioInfo    = 4
-prioToCInt AndroidLogPrioVerbose = 2
 prioToCInt AndroidLogPrioWarn    = 5
+prioToCInt AndroidLogPrioInfo    = 4
+prioToCInt AndroidLogPrioDebug   = 3
+prioToCInt AndroidLogPrioVerbose = 2
