@@ -32,4 +32,4 @@ source-repository head
 source-repository this
   type:     git
   location: https://github.com/keera-studios/android-haskell.git
-  tag:      v0.0.1
+  tag:      v0.0.2
