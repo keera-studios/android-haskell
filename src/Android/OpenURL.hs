@@ -1,3 +1,8 @@
+-- | Interface to Android's Logging system.
+--
+-- Copyright   : (C) Keera Studios Ltd, 2014
+-- License     : GPL-3
+-- Maintainer  : support@keera.co.uk
 module Android.OpenURL where
 
 import Android.Log
